@@ -1,0 +1,36 @@
+学习命令https://blog.csdn.net/qtiao/article/details/97783243
+分析冲突https://blog.csdn.net/u010393510/article/details/127121169
+提交仓库https://blog.csdn.net/m0_45234510/article/details/120181503
+创建仓库https://blog.csdn.net/qq_29493173/article/details/113094143
+#创建
+在本地创建仓库
+git init
+往仓库里添加路径下全部文件
+git add .
+提交本地版本
+git commit -m "提交说明"
+添加远程仓库
+git remote add
+本地版本推送至网络
+git push
+
+从网络克隆仓库
+git clone
+
+更新最新的版本
+git fetch
+
+#其他
+查看状态
+git status
+配置用户名和邮箱
+git config --global user.name '你的用户名'
+git config --global user.email '你的邮箱'
+从仓库中删除a
+git rm a
+重命名a为b
+git mv a b
+查看分支
+git branch
+创建分支a
+git branch a
